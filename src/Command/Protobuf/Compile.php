@@ -22,6 +22,8 @@ class Compile extends Command
         // Remove old generated files
         $filesystem = new Filesystem();
         $filesystem->remove(__DIR__ . '/../../../build/php/*');
+        // Create directories
+        $filesystem->mkdir(__DIR__ . '/../../../build/php');
         // Compile protobuf files
         $binPath = realpath(__DIR__ . '/../../../bin/protoc');
         $phpPath = realpath(__DIR__ . '/../../../build/php');

@@ -26,7 +26,9 @@ class Protobuf extends Command
     {
         // Remove old generated files
         $filesystem = new Filesystem();
-        $filesystem->remove(__DIR__ . '/../../../build/protobuf/PoleEmploi/*');
+        $filesystem->remove(__DIR__ . '/../../../build/protobuf/*');
+        // Create directories
+        $filesystem->mkdir(__DIR__ . '/../../../build/protobuf/PoleEmploi');
         $this->makeMessage('Theme');
         $this->makeMessage('Profession');
         $this->makeMessage('MainProfessionalField');

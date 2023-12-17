@@ -1,9 +1,11 @@
 /vendor/
+
 /json/
 !/json/.gitkeep
+
 /bin/protoc
-/build/php/
-!/build/php/.gitkeep
-/build/protobuf/PoleEmploi/
-!/build/protobuf/PoleEmploi/.gitkeep
+
+/build/
+!/build/.gitkeep
+
 .env

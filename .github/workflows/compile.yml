@@ -16,4 +16,7 @@ jobs:
         with:
           php-version: ${{ matrix.php-versions }}
       - name: Compile
+        env:
+          POLE_EMPLOI_CLIENT_ID: ${{ secrets.POLE_EMPLOI_CLIENT_ID }}
+          POLE_EMPLOI_CLIENT_SECRET: ${{ secrets.POLE_EMPLOI_CLIENT_SECRET }}
         run: make compile

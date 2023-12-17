@@ -2,6 +2,7 @@
 
 namespace MrDlef\PoleEmploi;
 
+use RuntimeException;
 use Symfony\Component\HttpClient\Exception\ClientException;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
@@ -12,6 +13,13 @@ class PoleEmploiHttpClient
 
     private function authenticate(): self
     {
+        $clientId = getenv('POLE_EMPLOI_CLIENT_ID');
+        $clientSecret = getenv('POLE_EMPLOI_CLIENT_SECRET');
+
+        if (false === $clientId || false === $clientSecret) {
+            throw new RuntimeException('You must set POLE_EMPLOI_CLIENT_ID and POLE_EMPLOI_CLIENT_SECRET env vars.');
+        }
+
         $httpQueryParams = [
             'realm' => '/partenaire',
         ];
@@ -24,8 +32,8 @@ class PoleEmploiHttpClient
                 ],
                 'body' => [
                     'grant_type' => 'client_credentials',
-                    'client_id' => getenv('POLE_EMPLOI_CLIENT_ID'),
-                    'client_secret' => getenv('POLE_EMPLOI_CLIENT_SECRET'),
+                    'client_id' => $clientId,
+                    'client_secret' => $clientSecret,
                     'scope' => implode(' ', [
                         'api_rome-metiersv1',
                         'nomenclatureRome',
