@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+// This message was auto-generated.
+// Do not modify this file manually.
+
+package mrDlef.poleEmploi;
+
+option php_namespace = "MrDlef\\PoleEmploi\\Messages";
+option php_metadata_namespace = "MrDlef\\PoleEmploi\\Metadata";
+
+message Profession {
+  string code = 1;
+}

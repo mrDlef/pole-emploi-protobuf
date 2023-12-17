@@ -1,0 +1,122 @@
+[
+    {
+        "libelle": "J'ai envie de cr\u00e9er, construire, r\u00e9nover",
+        "code": "1"
+    },
+    {
+        "libelle": "J'ai l'\u00e2me d'un chef \/ d'une cheffe",
+        "code": "2"
+    },
+    {
+        "libelle": "J'ai le sens des affaires",
+        "code": "3"
+    },
+    {
+        "libelle": "J'ai le sens du contact",
+        "code": "4"
+    },
+    {
+        "libelle": "J'ai le sens du service public",
+        "code": "5"
+    },
+    {
+        "libelle": "J'ai le souci du d\u00e9tail",
+        "code": "6"
+    },
+    {
+        "libelle": "J'ai un bon coup de crayon",
+        "code": "7"
+    },
+    {
+        "libelle": "J'aime communiquer, convaincre",
+        "code": "8"
+    },
+    {
+        "libelle": "J'aime \u00eatre au contact de la nature",
+        "code": "9"
+    },
+    {
+        "libelle": "J'aime faire des d\u00e9couvertes",
+        "code": "10"
+    },
+    {
+        "libelle": "J'aime faire respecter la loi, les r\u00e8gles",
+        "code": "11"
+    },
+    {
+        "libelle": "J'aime jouer avec les mots",
+        "code": "12"
+    },
+    {
+        "libelle": "J'aime l'activit\u00e9 physique",
+        "code": "13"
+    },
+    {
+        "libelle": "J'aime le travail manuel",
+        "code": "14"
+    },
+    {
+        "libelle": "J'aime manier les chiffres",
+        "code": "15"
+    },
+    {
+        "libelle": "J'aime me d\u00e9placer et voyager",
+        "code": "16"
+    },
+    {
+        "libelle": "J'aime m'occuper des animaux",
+        "code": "17"
+    },
+    {
+        "libelle": "J'aime organiser, planifier ",
+        "code": "18"
+    },
+    {
+        "libelle": "J'aime piloter, conduire",
+        "code": "19"
+    },
+    {
+        "libelle": "Je souhaite contribuer \u00e0 la protection de l'environnement",
+        "code": "20"
+    },
+    {
+        "libelle": "Je souhaite m'occuper d'enfants",
+        "code": "21"
+    },
+    {
+        "libelle": "Je souhaite prendre soin des autres",
+        "code": "22"
+    },
+    {
+        "libelle": "Je souhaite prot\u00e9ger et secourir ",
+        "code": "23"
+    },
+    {
+        "libelle": "Je souhaite transmettre",
+        "code": "24"
+    },
+    {
+        "libelle": "Je suis amateur \/ amatrice de sensations fortes",
+        "code": "25"
+    },
+    {
+        "libelle": "Je suis attir\u00e9 \/ attir\u00e9e par l'envers du d\u00e9cor",
+        "code": "26"
+    },
+    {
+        "libelle": "Je suis passionn\u00e9 \/ passionn\u00e9e par la cuisine",
+        "code": "27"
+    },
+    {
+        "libelle": "Je suis passionn\u00e9 \/ passionn\u00e9e par les autres cultures",
+        "code": "28"
+    },
+    {
+        "libelle": "Je suis passionn\u00e9 \/ passionn\u00e9e par les nouvelles technologies",
+        "code": "29"
+    },
+    {
+        "libelle": "Je suis un \/ une artiste",
+        "code": "30"
+    }
+]

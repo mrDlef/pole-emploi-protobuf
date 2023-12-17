@@ -3,7 +3,7 @@ name: PoleEmploi Protobuf CI/CD
 on: [push]
 
 jobs:
-  compile:
+  test-compile:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false

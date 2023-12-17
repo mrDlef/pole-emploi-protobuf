@@ -1,0 +1,58 @@
+[
+    {
+        "libelle": "Agriculture et P\u00eache, Espaces naturels et Espaces verts, Soins aux animaux",
+        "code": "A"
+    },
+    {
+        "libelle": "Arts et Fa\u00e7onnage d'ouvrages d'art",
+        "code": "B"
+    },
+    {
+        "libelle": "Banque, Assurance, Immobilier",
+        "code": "C"
+    },
+    {
+        "libelle": "Commerce, Vente et Grande distribution",
+        "code": "D"
+    },
+    {
+        "libelle": "Communication, M\u00e9dia et Multim\u00e9dia",
+        "code": "E"
+    },
+    {
+        "libelle": "Construction, B\u00e2timent et Travaux publics",
+        "code": "F"
+    },
+    {
+        "libelle": "H\u00f4tellerie-Restauration, Tourisme, Loisirs et Animation",
+        "code": "G"
+    },
+    {
+        "libelle": "Industrie",
+        "code": "H"
+    },
+    {
+        "libelle": "Installation et Maintenance",
+        "code": "I"
+    },
+    {
+        "libelle": "Sant\u00e9",
+        "code": "J"
+    },
+    {
+        "libelle": "Services \u00e0 la personne et \u00e0 la collectivit\u00e9",
+        "code": "K"
+    },
+    {
+        "libelle": "Spectacle",
+        "code": "L"
+    },
+    {
+        "libelle": "Support \u00e0 l'entreprise",
+        "code": "M"
+    },
+    {
+        "libelle": "Transport et Logistique",
+        "code": "N"
+    }
+]

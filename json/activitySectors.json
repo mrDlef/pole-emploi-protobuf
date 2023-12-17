@@ -1,0 +1,302 @@
+[
+    {
+        "libelle": "Agriculture et \u00e9levage",
+        "code": "79"
+    },
+    {
+        "libelle": "Environnement",
+        "code": "80"
+    },
+    {
+        "libelle": "Maintenance, entretien et nettoyage",
+        "code": "81"
+    },
+    {
+        "libelle": "Culture et patrimoine",
+        "code": "82"
+    },
+    {
+        "libelle": "Industrie - Alimentaire",
+        "code": "83"
+    },
+    {
+        "libelle": "Industries",
+        "code": "84"
+    },
+    {
+        "libelle": "Sant\u00e9",
+        "code": "85"
+    },
+    {
+        "libelle": "Service \u00e0 la personne",
+        "code": "86"
+    },
+    {
+        "libelle": "Artisanat d'art, audiovisuel et spectacle",
+        "code": "87"
+    },
+    {
+        "libelle": "Commerce et distribution",
+        "code": "88"
+    },
+    {
+        "libelle": "Industrie - Papier et imprimerie",
+        "code": "89"
+    },
+    {
+        "libelle": "Industrie - Textile et mode",
+        "code": "90"
+    },
+    {
+        "libelle": "Finance, banque et assurance",
+        "code": "91"
+    },
+    {
+        "libelle": "Immobilier",
+        "code": "92"
+    },
+    {
+        "libelle": "Sport, animation et loisir",
+        "code": "93"
+    },
+    {
+        "libelle": "Communication et marketing",
+        "code": "94"
+    },
+    {
+        "libelle": "Automobile",
+        "code": "95"
+    },
+    {
+        "libelle": "Informatique et t\u00e9l\u00e9communication",
+        "code": "96"
+    },
+    {
+        "libelle": "\u00c9dition",
+        "code": "97"
+    },
+    {
+        "libelle": "Architecture, \u00e9tudes et normes",
+        "code": "98"
+    },
+    {
+        "libelle": "B\u00e2timent et travaux publics (BTP)",
+        "code": "99"
+    },
+    {
+        "libelle": "Industrie - M\u00e9tallurgie",
+        "code": "100"
+    },
+    {
+        "libelle": "Tourisme",
+        "code": "101"
+    },
+    {
+        "libelle": "H\u00f4tellerie et restauration",
+        "code": "102"
+    },
+    {
+        "libelle": "Gestion administrative et ressources humaines",
+        "code": "103"
+    },
+    {
+        "libelle": "Industrie - \u00c9lectronique",
+        "code": "104"
+    },
+    {
+        "libelle": "Recherche",
+        "code": "105"
+    },
+    {
+        "libelle": "Industrie - Chimie",
+        "code": "106"
+    },
+    {
+        "libelle": "Industrie - Bois",
+        "code": "107"
+    },
+    {
+        "libelle": "\u00c9nergie",
+        "code": "108"
+    },
+    {
+        "libelle": "Social",
+        "code": "109"
+    },
+    {
+        "libelle": "Activit\u00e9s juridiques et comptables",
+        "code": "110"
+    },
+    {
+        "libelle": "Service public, d\u00e9fense et s\u00e9curit\u00e9",
+        "code": "111"
+    },
+    {
+        "libelle": "Enseignement et formation",
+        "code": "112"
+    },
+    {
+        "libelle": "Logistique et transport",
+        "code": "113"
+    },
+    {
+        "libelle": "Agriculture, sylviculture",
+        "code": "114"
+    },
+    {
+        "libelle": "\u00c9levage, p\u00eache",
+        "code": "115"
+    },
+    {
+        "libelle": "Nettoyage",
+        "code": "116"
+    },
+    {
+        "libelle": "Maintenance",
+        "code": "117"
+    },
+    {
+        "libelle": "Soins animaliers",
+        "code": "118"
+    },
+    {
+        "libelle": "M\u00e9dical",
+        "code": "119"
+    },
+    {
+        "libelle": "Artisanat d'art",
+        "code": "120"
+    },
+    {
+        "libelle": "Spectacle",
+        "code": "121"
+    },
+    {
+        "libelle": "Audiovisuel",
+        "code": "122"
+    },
+    {
+        "libelle": "Grande distribution",
+        "code": "123"
+    },
+    {
+        "libelle": "Commerce de d\u00e9tail",
+        "code": "124"
+    },
+    {
+        "libelle": "Commerce de gros",
+        "code": "125"
+    },
+    {
+        "libelle": "Imprimerie",
+        "code": "126"
+    },
+    {
+        "libelle": "Papier",
+        "code": "127"
+    },
+    {
+        "libelle": "Assurance",
+        "code": "128"
+    },
+    {
+        "libelle": "Banque",
+        "code": "129"
+    },
+    {
+        "libelle": "Finance",
+        "code": "130"
+    },
+    {
+        "libelle": "Sport",
+        "code": "131"
+    },
+    {
+        "libelle": "Animation et loisir",
+        "code": "132"
+    },
+    {
+        "libelle": "Informatique",
+        "code": "133"
+    },
+    {
+        "libelle": "T\u00e9l\u00e9communication",
+        "code": "134"
+    },
+    {
+        "libelle": "Architecture",
+        "code": "135"
+    },
+    {
+        "libelle": "Normes",
+        "code": "136"
+    },
+    {
+        "libelle": "\u00c9tude des sols et des b\u00e2timents",
+        "code": "137"
+    },
+    {
+        "libelle": "BTP",
+        "code": "138"
+    },
+    {
+        "libelle": "Gros \u0152uvre",
+        "code": "139"
+    },
+    {
+        "libelle": "Second \u0152uvre",
+        "code": "140"
+    },
+    {
+        "libelle": "Restauration",
+        "code": "141"
+    },
+    {
+        "libelle": "H\u00f4tellerie",
+        "code": "142"
+    },
+    {
+        "libelle": "Gestion administrative",
+        "code": "143"
+    },
+    {
+        "libelle": "Ressources humaines",
+        "code": "144"
+    },
+    {
+        "libelle": "Activit\u00e9s juridiques",
+        "code": "145"
+    },
+    {
+        "libelle": "Comptabilit\u00e9",
+        "code": "146"
+    },
+    {
+        "libelle": "Service public",
+        "code": "147"
+    },
+    {
+        "libelle": "D\u00e9fense",
+        "code": "148"
+    },
+    {
+        "libelle": "S\u00e9curit\u00e9",
+        "code": "149"
+    },
+    {
+        "libelle": "Conseil, orientation et formation",
+        "code": "150"
+    },
+    {
+        "libelle": "Enseignement",
+        "code": "151"
+    },
+    {
+        "libelle": "Logistique et courrier",
+        "code": "152"
+    },
+    {
+        "libelle": "Transport",
+        "code": "153"
+    }
+]

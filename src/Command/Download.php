@@ -7,6 +7,7 @@ use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Filesystem\Filesystem;
 
 #[AsCommand(
     name: 'download',
@@ -19,6 +20,9 @@ class Download extends Command
     {
         $client = (new PoleEmploiHttpClient());
 
+        $filesystem = new Filesystem();
+        $filesystem->remove(__DIR__ . '/../../json');
+        $filesystem->mkdir(__DIR__ . '/../../json');
         $downloadDir = __DIR__ . '/../../json';
 
         if (! is_dir($downloadDir)) {

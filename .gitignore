@@ -1,11 +1,5 @@
+/.idea/
 /vendor/
-
-/json/
-!/json/.gitkeep
-
 /bin/protoc
 
-/build/
-!/build/.gitkeep
-
-.env
+/.env

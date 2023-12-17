@@ -1,0 +1,70 @@
+[
+    {
+        "libelle": "M\u00e9tiers de l'environnement et du d\u00e9veloppement durable",
+        "code": "01"
+    },
+    {
+        "libelle": "M\u00e9tiers de la d\u00e9fense et de la s\u00e9curit\u00e9 publique (hors logistique, sant\u00e9, tertiaire, restauration)",
+        "code": "02"
+    },
+    {
+        "libelle": "M\u00e9tiers du patrimoine et de la restauration d'oeuvres d'art",
+        "code": "03"
+    },
+    {
+        "libelle": "M\u00e9tiers de l'intelligence \u00e9conomique",
+        "code": "04"
+    },
+    {
+        "libelle": "M\u00e9tiers de la recherche",
+        "code": "05"
+    },
+    {
+        "libelle": "M\u00e9tiers de la mer, du nautisme et de la construction navale",
+        "code": "06"
+    },
+    {
+        "libelle": "M\u00e9tiers de l'a\u00e9ronautique",
+        "code": "07"
+    },
+    {
+        "libelle": "M\u00e9tiers de la s\u00e9curit\u00e9 publique et priv\u00e9e",
+        "code": "08"
+    },
+    {
+        "libelle": "M\u00e9tiers du multim\u00e9dia",
+        "code": "09"
+    },
+    {
+        "libelle": "M\u00e9tiers de l'humanitaire (hors sant\u00e9 et tertiaire)",
+        "code": "10"
+    },
+    {
+        "libelle": "M\u00e9tiers du nucl\u00e9aire",
+        "code": "11"
+    },
+    {
+        "libelle": "M\u00e9tiers aupr\u00e8s des enfants",
+        "code": "12"
+    },
+    {
+        "libelle": "M\u00e9tiers saisonniers, de vacances \/ Jobs d'\u00e9t\u00e9",
+        "code": "13"
+    },
+    {
+        "libelle": "M\u00e9tiers des services \u00e0 la personne \u00e0 domicile",
+        "code": "14"
+    },
+    {
+        "libelle": "M\u00e9tiers du sport et autour du sport",
+        "code": "15"
+    },
+    {
+        "libelle": "M\u00e9tiers de l'ing\u00e9nierie",
+        "code": "16"
+    },
+    {
+        "libelle": "M\u00e9tiers accessibles sans dipl\u00f4me et sans exp\u00e9rience",
+        "code": "17"
+    }
+]

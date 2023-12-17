@@ -21,18 +21,24 @@ class Compile extends Command
         $output->writeln('Compiling protobuf files!');
         // Remove old generated files
         $filesystem = new Filesystem();
-        $filesystem->remove(__DIR__ . '/../../../build/php/*');
+        $filesystem->remove(__DIR__ . '/../../../build/php');
         // Create directories
         $filesystem->mkdir(__DIR__ . '/../../../build/php');
-        // Compile protobuf files
+
+
         $binPath = realpath(__DIR__ . '/../../../bin/protoc');
         $phpPath = realpath(__DIR__ . '/../../../build/php');
         $protobufPath = realpath(__DIR__ . '/../../../build/protobuf');
         $messagesPath = glob($protobufPath . '/**/*.proto');
 
-
-        $process = new Process([$binPath, '--php_out=' . $phpPath, '--proto_path=' . $protobufPath, ...$messagesPath]);
+        // Compile protobuf files
+        $process = new Process([
+            $binPath, '--php_out=' . $phpPath,
+            '--proto_path=' . $protobufPath,
+            ...$messagesPath
+        ]);
         $process->run();
+
         if (!$process->isSuccessful()) {
             throw new \RuntimeException($process->getErrorOutput());
         }
