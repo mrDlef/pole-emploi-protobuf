@@ -1,0 +1,25 @@
+{
+    "name": "mr-dlef/pole-emploi",
+    "description": "Mapping in protobuf format to facilitate its use in various applications",
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "ext-zip": "*",
+        "symfony/console": "^7.0",
+        "symfony/http-client": "^7.0",
+        "symfony/filesystem": "^7.0",
+        "symfony/process": "^7.0"
+    },
+    "license": "CC-BY-4.0",
+    "autoload": {
+        "psr-4": {
+            "MrDlef\\PoleEmploi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Favreau",
+            "email": "denis.favreau@gmail.com"
+        }
+    ]
+}

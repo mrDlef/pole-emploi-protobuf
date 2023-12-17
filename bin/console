@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use MrDlef\PoleEmploi\Command\Download;
+use MrDlef\PoleEmploi\Command\Generate;
+use MrDlef\PoleEmploi\Command\Protobuf;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new Download());
+$application->add(new Generate\Protobuf());
+$application->add(new Protobuf\Install());
+$application->add(new Protobuf\Compile());
+
+$application->run();
